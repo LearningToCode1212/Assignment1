@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            string milksong = MilkSong.Milk();
+            Console.WriteLine(milksong);
         }
     }
 }
